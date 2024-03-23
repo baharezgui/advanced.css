@@ -120,7 +120,7 @@ select option {
     background: url("https://www.docplanner.com/img/logo.png") no-repeat; 
     position: absolute;
     right: 55%;
-    top: 190%;
+    top: 185%;
     width: 456px;
     height: 345px;
     pointer-events: none;
@@ -221,6 +221,9 @@ h3{text-align: center;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   margin-top: 150px;
+}
+.galery:hover{
+  box-shadow: 10px;
 }
 .galery figcaption{
   display: flex;
